@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Canva UI Tests]">
+  <parameter name="browser" value="android"/>
+  <test thread-count="5" name="Verify Canva UI flow using Selenium and Java(failed)">
+    <classes>
+      <class name="com.canva.qe.ui.test.CanvaUITest">
+        <methods>
+          <include name="setUpBeforeSuite"/>
+          <include name="initialize"/>
+          <include name="canvaUITestVerification"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.canva.qe.ui.test.CanvaUITest -->
+    </classes>
+  </test> <!-- Verify Canva UI flow using Selenium and Java(failed) -->
+</suite> <!-- Failed suite [Canva UI Tests] -->

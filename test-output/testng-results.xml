@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Number of pages on Pagination: 28  Random Page Number: 15]]>
+    </line>
+    <line>
+      <![CDATA[List of cover templates: 35]]>
+    </line>
+    <line>
+      <![CDATA[selectedSubCategoryText: All    Parent Category: Book Covers]]>
+    </line>
+  </reporter-output>
+  <suite name="Canva UI Tests" duration-ms="82739" started-at="2018-02-08T00:09:47Z" finished-at="2018-02-08T00:11:10Z">
+    <groups>
+    </groups>
+    <test name="Verify Canva UI flow using Selenium and Java" duration-ms="82739" started-at="2018-02-08T00:09:47Z" finished-at="2018-02-08T00:11:10Z">
+      <class name="com.canva.qe.ui.test.CanvaUITest">
+        <test-method status="PASS" signature="setUpBeforeSuite(org.testng.ITestContext)[pri:0, instance:com.canva.qe.ui.test.CanvaUITest@cb644e]" name="setUpBeforeSuite" is-config="true" duration-ms="80" started-at="2018-02-08T00:09:47Z" finished-at="2018-02-08T00:09:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@609bcfb6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeSuite -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:com.canva.qe.ui.test.CanvaUITest@cb644e]" name="initialize" is-config="true" duration-ms="4982" started-at="2018-02-08T00:09:47Z" finished-at="2018-02-08T00:09:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testCanvaUITestCase()[pri:0, instance:com.canva.qe.ui.test.CanvaUITest@cb644e]" name="testCanvaUITestCase" duration-ms="76933" started-at="2018-02-08T00:09:52Z" description="Click any random page number from pagination, click random cover template, click Use Template button and verify it redirects user to Canva home page." finished-at="2018-02-08T00:11:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Number of pages on Pagination: 28  Random Page Number: 15]]>
+            </line>
+            <line>
+              <![CDATA[List of cover templates: 35]]>
+            </line>
+            <line>
+              <![CDATA[selectedSubCategoryText: All    Parent Category: Book Covers]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCanvaUITestCase -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.canva.qe.ui.test.CanvaUITest@cb644e]" name="tearDown" is-config="true" duration-ms="794" started-at="2018-02-08T00:11:09Z" finished-at="2018-02-08T00:11:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.canva.qe.ui.test.CanvaUITest -->
+    </test> <!-- Verify Canva UI flow using Selenium and Java -->
+  </suite> <!-- Canva UI Tests -->
+</testng-results>

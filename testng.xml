@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Canva UI Tests" verbose="1" >
+
+  <parameter name="browser" value="chrome"></parameter>
+   <test name="Verify Canva UI flow using Selenium and Java" >
+    <classes>
+       <class name="com.canva.qe.ui.test.CanvaUITest" />
+    </classes>
+  </test>
+ 
+</suite>
